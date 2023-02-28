@@ -1,0 +1,148 @@
+
+head {
+    background-color:gray;
+    color: aqua;
+    width: 100%;
+    font-size: large;
+    font-family: bold;
+    box-shadow: 10px 500px 10px rgb(243, 243, 243);
+    padding-top: 12px;
+    }
+
+
+body {
+    display: block;
+    background-color:#53a7ac;
+    color: black;
+    width: 100%;
+    font-size: large;
+    font-family: 'Rockwell', bold;
+    flex-direction: row;
+    align-self: center;
+    }
+
+
+html body div {
+    margin: 0;
+    padding: 15px 15px;
+    width: 100%;
+    overflow: hidden;
+    display:flex;
+    color: aqua;
+    background-color: grey;
+    z-index: 1;
+    font-weight: 1200;
+    font-family: 'Rockwell', bold;
+    flex-direction: row;
+    align-content: center;
+
+}
+
+html body div h1 {
+    margin-left: 1cm;
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+html body h4 {
+    margin-left: 20cm;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+html body h4:hover{
+    opacity: 0.6;
+}
+
+html div section {
+    border: solid #53a7ac;
+    border-radius: 5px;
+    width: 360px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: content-box;
+    padding: 20px;
+    overflow: hidden;
+    text-justify: distribute-all-lines;
+    flex-direction: row;
+}
+
+html body h2 img p {
+    padding: 15px 50px 50px 50px;
+    display: inline-block;
+    flex-direction: row;
+}
+
+html div section:hover {
+    opacity: 0.6;
+}
+
+html body article {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    justify-items: center;
+}
+
+html body h2 p {
+    margin-left: 150px;
+}
+
+a {
+    color: aqua;
+}
+
+a:link {
+    color: aqua;
+    text-decoration: none;
+
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color:aqua;
+    opacity: 0.6;
+}
+
+.c {
+    margin-top: 4cm;
+    width: 100%;
+}
+
+html footer img {
+display:inline-block;
+padding: 3px;
+margin-left: 20px;
+}
+
+html footer {
+    background-color: grey;
+    display:inline-block;
+    margin-top: 60px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    align-self: flex-end;
+    height: 50px;
+    width: 100%;
+}
+
+html h2 {
+    margin-left: 30px;
+}
+
+
+
+
+html body button {
+    font-family: 'Rockwell', bold;
+    font-size: 20px;
+    margin-left: 30px;
+    border-radius: 0.2;
+    background-color: #53a7ac;
+    font-weight: 500;
+}
