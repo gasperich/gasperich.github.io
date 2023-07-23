@@ -26,7 +26,6 @@ html body div {
     margin: 0;
     padding: 15px 15px;
     width: 100%;
-    overflow: hidden;
     display:flex;
     color: aqua;
     background-color: grey;
@@ -143,6 +142,6 @@ html body button {
     font-size: 20px;
     margin-left: 30px;
     border-radius: 0.2;
-    background-color: #53a7ac;
+    background-color: #53a7;
     font-weight: 500;
 }
