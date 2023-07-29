@@ -135,8 +135,12 @@ html h2 {
 }
 
 .datos {
-    justify-content: center;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    vertical-align: middle;
+    padding: 20px;
+    height: 100vh;
 }
 
 
