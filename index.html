@@ -3,31 +3,34 @@
   <head>
     <title> Gaspar Perich </title>
     <link href="detalles.css" rel="stylesheet" type="text/css" />
+    <script src="funcion.js" defer></script>
    
   </head>
   
   
   <body>
-    <div>
-      <img  src="Gaspar.jpg" width=120 height=160/>
-      <h1><a href= "index.html"> Gaspar Perich </a></h1>
-        <nav>
-          <ul> 
-            <h4><a href="index.html"> Inicio </a></h4>
-            <h4><a href="Estudios.html"> Mis Estudios  </a></h4>
-            <h4><a href="Exp_laboral.html"> Experiencia Laboral  </a></h4>
-            <h4><a href="Contacto.html"> Contacto </a></h4>
-            <h4><a href="Trabajos_estadisticos.html"> Trabajos estadisticos </a></h4>
+    <nav class="menu">
+      <div>
+        <img  src="Gaspar.jpg" width=130 height=160/>
+        <div class="nombre"><h1><a href= "index.html"> Gaspar Perich </a></h1></div>
+        <div class="secciones">
+              <ul>
+                <li><a href="index.html"> Inicio </a></li>
+                <li><a href="Estudios.html"> Mis Estudios </a></li>
+                <li><a href="Exp_laboral.html"> Experiencias Laborales </a></li>
+                <li><a href="Trabajos_estadisticos.html">Mis investigaciones </a></li>
+                <li><a href="Contacto.html"> Contacto </a></li>
+              </ul> 
+          </div>  
+          <div class="idiomas"> 
+          <ul>  
+              <li><a href="index_eng.html"> <img src="Inglaterra.png" height = 30 width=30>English</a></li>
+              <li><a href="index_ita.html"><img src="Italia.png" height = 30 width=30>Italiano</a></li>
+              <li><a href="index.html"><img src="España.png" height = 30 width=30/>Español</a></li>
           </ul>
-        </nav>
-    </div>
-  
+      </div>
+    </nav>
 
-
-  <h2> Datos Personales</h2>
-  <p> Edad: 30 años <br/>
-    Lugar de nacimiento: El Calafate <br/>
-    Profesion: Sociólogo, analista de datos y web developer.</p>
 
   <h2> Acerca de mi </h2>
   <p> Soy licenciado y profesor en Sociologia de la Universidad de Buenos Aires. <br/>
@@ -36,20 +39,22 @@
     He trabajado como profesor en distintas escuelas de mi ciudad.
     También soy analista de datos y diseño sitios web como este.</p>
   
+  <h2> Datos Personales</h2>
+  <p> Edad: 30 años <br/>
+    Lugar de nacimiento: El Calafate <br/>
+    Profesion: Sociólogo, analista de datos y web developer.</p>
+  
 
   <strong>
   <button type="button" id="btn_color" onclick="document.getElementById('demo').innerHTML = 'Si quieres saber más de mi, en la esquina superior derecha puedes buscar mas sobre mi experiencia laboral, mis estudios o mi contacto.'"> Quiero saber más </button>
   </strong>
   <p id="demo"> Hola! </p>
   <script src="js/funcion.js"> </script>
-  </body>  
 
+</div>
   <footer> 
     <a id= "tw" target="_blank" href="https://twitter.com"><img src="twitter2.png" height = 30 width=30/></a>
     <a target="_blank" href="https://facebook.com"><img src="facebook.png" height = 30 width=30/></a>
     <a target="_blank" href="https://public.tableau.com/app/profile/gasperich"><img src="tableau.png" height = 30 width=100/></a>
-
-
-
   </footer>
 </html>
